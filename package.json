@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "tsx scripts/build.ts",
     "build": "npm run generate && tsc -b",
-    "prepare": "npm run build" 
+    "prepare": "npm run build"
   },
   "keywords": [],
   "author": "",
@@ -23,5 +23,8 @@
     "tsx": "^4.20.3",
     "typescript": "^5.8.3",
     "undici-types": "^7.11.0"
+  },
+  "dependencies": {
+    "@types/node": "^24.0.10"
   }
 }
