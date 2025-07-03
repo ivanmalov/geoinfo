@@ -1,1 +1,19 @@
-{ "compilerOptions": { "declaration": true, "outDir": "./dist", "rootDir": "./src", "strict": true, "module": "node16", "target": "es2022", "moduleResolution": "node16", "types": ["node", "undici-types"] } }
+{
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "module": "node16",
+    "target": "es2022",
+    "moduleResolution": "node16",
+    "types": [
+      "node",
+      "undici-types"
+    ]
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    "scripts"
+  ]
+}

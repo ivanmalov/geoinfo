@@ -3,7 +3,7 @@ import * as path from 'node:path';
 
 const src = JSON.parse(
   fs.readFileSync(
-    path.join(__dirname, '../../raw/cldr-47.0.0-json-full/cldr-core/supplemental/currencyData.json'),
+    path.join(__dirname, '../raw/cldr-47.0.0-json-full/cldr-core/supplemental/currencyData.json'),
     'utf8'
   )
 ) as any;

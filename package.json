@@ -11,7 +11,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate": "tsx src/scripts/build.ts",
+    "generate": "tsx scripts/build.ts",
     "build": "npm run generate && tsc -b"
   },
   "keywords": [],
