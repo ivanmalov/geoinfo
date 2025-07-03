@@ -4,11 +4,10 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
-    "module": "nodenext",
+    "module": "esnext",
     "target": "es2022",
-    "moduleResolution": "nodenext",
+    "moduleResolution": "bundler",
     "types": [
-      "node",
       "undici-types"
     ]
   },

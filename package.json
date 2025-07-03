@@ -5,6 +5,8 @@
   "files": [
     "dist/"
   ],
+  "type": "module",
+  "main": "./dist/index.js",
   "exports": {
     "./currency": "./dist/generated/currency.js",
     "./all": "./dist/index.js"
@@ -12,8 +14,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "tsx scripts/build.ts",
-    "build": "tsc -b",
-    "prepare": "npm run build"
+    "build": "tsc -b"
   },
   "keywords": [],
   "author": "",
