@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.currency = void 0;
-exports.currency = {
+export const currency = {
     "AC": "SHP",
     "AD": "EUR",
     "AE": "AED",
