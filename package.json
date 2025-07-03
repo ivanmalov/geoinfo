@@ -1,0 +1,26 @@
+{
+  "name": "geoinfo",
+  "version": "0.0.0",
+  "sideEffects": false,
+  "files": [
+    "dist/"
+  ],
+  "exports": {
+    "./currency": "./dist/generated/currency.js",
+    "./all": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "tsx src/scripts/build.ts",
+    "build": "npm run generate && tsc -b"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "undici-types": "^7.11.0"
+  }
+}
